@@ -25,11 +25,11 @@
           <form class="formulario">
             <label for="email">E-mail</label>
             
-            <input required placeholder="Email@gmail.com" type="email" name="email" id="email">
+            <input required placeholder="Email@gmail.com" type="email" name="email" autocomplete="email">
             
             <label for="senha">Senha</label>
             
-            <input required placeholder="Senha" type="password" name="senha" id="senha">
+            <input required placeholder="Senha" type="password" autocomplete="current-password">
             <a href="#" class="esqueceu">Esqueceu sua senha? </a>
             <button class="botao-formulario">Entrar</button>
           </form>
@@ -64,21 +64,21 @@
 
           <label for="nome">Nome</label>
 
-          <input required placeholder="Nome" type="text">
+          <input id="caixa1"  required placeholder="Nome" type="text">
 
           <label for="sobrenome">Sobrenome</label>
           
-          <input required placeholder="Sobrenome" type="text">
+          <input id="caixa2" required placeholder="Sobrenome" type="text">
 
           <label for="email">E-mail</label>
           
-          <input required placeholder="Email@gmail.com" type="email" name="email" id="email">
+          <input id="caixa3" required placeholder="Email@gmail.com" type="email" name="email" autocomplete="email">
           
           <label for="senha">Senha</label>
           
-          <input required placeholder="Senha" type="password" name="senha" id="senha">
+          <input id="caixa4" required placeholder="Senha" type="password" name="password" autocomplete="current-password" >
           
-          <button class="botao-formulario">Cadastrar</button>
+          <button onclick="cadastroRealizado()" class="botao-formulario">Cadastrar</button>
         </form>
       </div>
 

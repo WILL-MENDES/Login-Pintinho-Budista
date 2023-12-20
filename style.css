@@ -146,6 +146,15 @@ p{
     display: flex;
     flex-direction: column;
     width: 200px;
-    margin-top: 50px;
+    margin-top: 35px;
+    gap: 5px;
+}
+
+.obrigado{
+    position: relative;
+    left: 20px;
+    top: 130px;
+    font-size: 40px;
+    color:#F25019;
 }
 
